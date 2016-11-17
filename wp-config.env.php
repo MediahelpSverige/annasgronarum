@@ -24,13 +24,12 @@
  *   case 'localhost':
  *
  */
- echo $hostname;
 switch ($hostname) {
     case 'localhost:8080':
         define('WP_ENV', 'development');
         break;
 
-    case 'annasgronarum.mediahelpcrm.se':
+    case 'www.annasgronarum.mediahelpcrm.se':
         define('WP_ENV', 'staging');
         break;
 
