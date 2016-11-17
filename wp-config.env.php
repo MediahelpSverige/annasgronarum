@@ -24,6 +24,7 @@
  *   case 'localhost':
  *
  */
+ echo $hostname;
 switch ($hostname) {
     case 'localhost:8080':
         define('WP_ENV', 'development');
