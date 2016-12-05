@@ -1,6 +1,7 @@
 <footer>
 <div class="container">
-	<p></p>
+	<div class="row">
+		<div class="col-md-4">
 	<div class="leftsection">
 		<h4>Öppettider</h4>
 		<ul>
@@ -9,7 +10,9 @@
 		</ul>
 	</div>
 </div>
-	
+</div>
+</div>
+
 </footer>
 <?php wp_footer();?>
 </body>

@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  /*HEADER END*/
+}
+
+body header {
+  position: fixed;
+  top: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  transition: 1s ease all;
+  z-index: 9999999;
+}
+
+body header .nav-menu {
+  width: 70%;
+  display: flex;
+}
+
+body header .nav-menu .flex-item {
+  flex-basis: 50%;
+}
+
+body header .nav-menu #logo img {
+  max-width: 300px;
+  max-height: 100px;
+  transition: 1s ease all;
+}
+
+body header .nav-menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+}
+
+body header .nav-menu ul li a {
+  color: white;
+}
+
+body header .nav-menu nav {
+  width: 100%;
+}
+
+body .banner {
+  height: 70vh;
+  background-size: cover;
+  background-size: cover;
+  background-color: rgba(49, 49, 49, 0.26);
+  background-image: -webkit-linear-gradient(270deg, rgba(61, 61, 61, 0.2), rgba(61, 61, 61, 0.2));
+  background-image: linear-gradient(180deg, rgba(61, 61, 61, 0.2), rgba(61, 61, 61, 0.2));
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  position: relative;
+}
+
+body .banner .container {
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  right: 0px;
+  margin: auto;
+}
+
+body .banner .container h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+body .parallax-window {
+  min-height: 70vh;
+  background: transparent;
+  width: 100%;
+}
+
+body .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body .container p {
+  margin: 0px;
+}
+
+body .container .product {
+  width: 300px;
+  height: 300px;
+}
+
+body .dark-sec {
+  background-color: #101215;
+  color: #8ac33e;
+  padding: 50px 0px;
+}
+
+body .dark-sec .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body .dark-sec .container p {
+  margin: 0px;
+}
+
+body .dark-sec .container .product {
+  width: 300px;
+  height: 300px;
+}
+
+/*FOOTER STYLES*/
+footer {
+  background-color: gray;
+}
+
+footer h4 {
+  margin: 0px;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0px;
+}

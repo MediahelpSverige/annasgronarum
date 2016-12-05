@@ -11,7 +11,7 @@
 
 	<div class="container">
 		<h1><?php the_field('para-title'); ?></h1>
-		<p><?php the_content(); ?></p>
+		<button class="btn-success"><a href="">Klicka här för att se vårat sortiment</a></button>
 	</div>
 </div>
 
@@ -26,9 +26,9 @@
 
 
 <div class="container">
-
+<div class="col-md-12">
 	<p>De senaste bilderna från vårt instagramkonto</p>
-
+</div>
 	<div class="row" id="insta-row">
 
 	<div id="instafeed"></div>

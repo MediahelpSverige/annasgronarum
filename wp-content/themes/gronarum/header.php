@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 
-	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Raleway|Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
 
 

@@ -1,0 +1,25 @@
+footer{
+	background-color:#3c3c3c;
+	padding: 50px 0px;
+  color: white;
+
+	h4{
+		margin:10px 0px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid white;
+    color: white;
+	}
+
+	ul{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+
+    li{
+      color: white;
+      a{
+        color:white;
+      }
+    }
+	}
+}
